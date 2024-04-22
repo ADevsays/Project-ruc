@@ -21,7 +21,7 @@ async function openWebPage(numRuc) {
     try {
 
         browser = await chromium.launch({
-            headless: false
+            headless: true
         });
         console.log("cargo el navegador")
         
